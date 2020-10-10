@@ -1,0 +1,130 @@
+@import url{'https://fonts.googleapis.com/css?family=Open+Sans:400,700'};
+
+body{
+    margin: 0;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+    overflow: auto;
+}
+img{
+    max-width: 100%;
+}
+#callout{
+    width: 100%;
+    background-color: #444;
+    height: auto;
+    overflow: hidden;
+}
+#callout p{
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 5%;
+}
+#callout p a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    padding: 1% 0;
+    text-align: center;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 350px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+nav ul li{
+    text-align: center;
+    float: left;
+    width: 10%;
+    padding: 5px;
+    display: list-item;
+    border: 1px solid #444;
+}
+nav ul li a{
+     text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #444;
+    display: block;
+    padding: 5% 12%;
+}
+nav ul li a:hover, nav ul li.active a{
+    background-color: #444;
+    color: greenyellow;
+}
+.banner{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.left-col{
+    width: 55%;
+    float: left;
+    padding: 1%;
+}
+.sidebar{
+    width: 40%;
+    float: right;
+}
+.one-third{
+    width: 29%;
+    float: left;
+    padding: 2%;
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    text-align: center;
+    background: #444;
+    width: 100%;
+    padding: 2%;
+}
+.social{
+    font-size: 400%;
+}
+.social a{
+    color: #fff;
+    padding: 3%;
+}
+.social a:hover{
+    color: #d5d5;
+}
+
+
+@media (max-width:768px){
+    nav ul {
+        padding-left: 0;
+    }
+    nav ul li {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    nav ul li a{
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    .left-col{
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar{
+    width: 100%;
+    padding: 0;
+}
+.one-third{
+    width: 100%;
+    float: left;
+    padding: 2%;
+}
+    .social{
+        font-size: 200%;
+    }
+}
